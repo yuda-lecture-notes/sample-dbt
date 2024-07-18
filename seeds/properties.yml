@@ -1,0 +1,13 @@
+version: 2
+
+# docs: 
+# https://docs.getdbt.com/reference/seed-properties
+# https://docs.getdbt.com/reference/seed-configs
+seeds:
+  - name: bike_type
+    description: "ini adalah table bike type"
+    columns:
+      - name: id
+        description: "ini adalah kolom id bla"
+      - name: bike_type
+        description: "ini adalah kolom bike_type"
