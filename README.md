@@ -20,24 +20,36 @@ _make sure that current directory is inside `[your_name]_dbt`_
 
 - Verify profile setup
 
-```bash
-dbt debug
-```
+  ```bash
+  dbt debug
+  ```
 
 - Running DBT setup
 
-```bash
-dbt run
-```
+  ```bash
+  dbt run
+  ```
 
 - Testing DBT models
 
-```bash
-dbt test
-```
+  ```bash
+  dbt test
+  ```
 
 - Load csv into database
 
-```bash
-dbt seed
-```
+  ```bash
+  dbt seed
+  ```
+
+- Generate Documentation
+
+  ```bash
+  dbt docs generate
+  ```
+
+  - Open Documentation
+
+    ```bash
+    dbt docs serve
+    ```
